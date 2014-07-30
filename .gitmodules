@@ -10,3 +10,18 @@
 [submodule ".vim/bundle/ctrlp.vim"]
 	path = .vim/bundle/ctrlp.vim
 	url = git@github.com:kien/ctrlp.vim.git
+[submodule ".vim/bundle/nerdcommenter"]
+	path = .vim/bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule ".vim/bundle/Buffet.vim"]
+	path = .vim/bundle/Buffet.vim
+	url = git@github.com:sandeepcr529/Buffet.vim.git
+[submodule ".vim/bundle/matchit.zip"]
+	path = .vim/bundle/matchit.zip
+	url = git@github.com:vim-scripts/matchit.zip.git
+[submodule ".vim/bundle/tagbar"]
+	path = .vim/bundle/tagbar
+	url = git@github.com:majutsushi/tagbar.git
+[submodule ".vim/bundle/vim-colors-zenburn"]
+	path = .vim/bundle/vim-colors-zenburn
+	url = git@github.com:jnurmine/Zenburn.git
