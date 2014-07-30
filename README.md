@@ -7,10 +7,10 @@ Installation:
 
 Create symlinks:
 
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
+    ln -s ~/vim-config/.vim/ ~/.vim
+    ln -s ~/vim-config/.vim/vimrc ~/.vimrc
 
-	If you're using Windows, this can be accomplished by running the windows-install.cmd file in a command prompt (should be run as an admin).
+If you're using Windows, this can be accomplished by running the windows-install.cmd file in a command prompt (should be run as an admin).
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
