@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/vim-colors-zenburn"]
 	path = .vim/bundle/vim-colors-zenburn
 	url = git@github.com:jnurmine/Zenburn.git
+[submodule ".vim/bundle/vim-commentary"]
+	path = .vim/bundle/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
