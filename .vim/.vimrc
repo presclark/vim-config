@@ -273,8 +273,8 @@ iab sunday     Sunday
 " Enable this if you mistype :w as :W or :q as :Q.
 " nmap :W :w
 " nmap :Q :q
-nmap ;s :source ~/_vimrc<CR>
-nmap ;e :edit ~/_vimrc<CR>
+nmap ;s :source ~/.vimrc<CR>
+nmap ;e :edit ~/.vimrc<CR>
 
 nnoremap <C-Up> :silent! let &guifont = substitute(
  \ &guifont,
