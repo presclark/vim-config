@@ -12,8 +12,7 @@
 	url = git@github.com:kien/ctrlp.vim.git
 [submodule ".vim/bundle/nerdcommenter"]
 	path = .vim/bundle/nerdcommenter
-	; url = git@github.com:presclark/nerdcommenter.git
-	url = https://github.com/presclark/nerdcommenter.git
+	url = git@github.com:presclark/nerdcommenter.git
 [submodule ".vim/bundle/Buffet.vim"]
 	path = .vim/bundle/Buffet.vim
 	url = git@github.com:sandeepcr529/Buffet.vim.git
