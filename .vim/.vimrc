@@ -52,7 +52,7 @@ set backspace=indent,eol,start
 set lz " Do not redraw when running macros... lazy redraw
   
 "Format the statusline
-set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l/%L:%c
+set statusline=[%n]\ %<%.99f\ %h%w%m%r%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%y%=%-16(\ %l,%c-%v\ %)%P
 set laststatus=2
 
 "Turn backup off
@@ -67,7 +67,7 @@ set listchars=tab:>-,trail:·,eol:$
 " Path/file expansion in colon-mode.
 set wildmode=list:longest
 "set wildignore=*.o,obj,*.exe,*.pyc,*.swp,*.zip,*.dll,concrete*
-set wildignore=*.o,obj,*.exe,*.pyc,*.swp,*.zip,*.dll
+set wildignore=*.o,obj,*.exe,*.pyc,*.swp,*.zip,*.dll,concrete*,vendor*
 set wildchar=<TAB>
 
 " Enable syntax-highlighting.
@@ -109,7 +109,7 @@ hi PmenuSel guibg=#555555 guifg=#ffffff
 
 map <F10> <Esc>:setlocal spell spelllang=en_us<CR>
 "map <F11> <Esc>:setlocal nospell<CR>
-map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
+"map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 
@@ -181,8 +181,8 @@ endfunction
 
 "Remove indenting on empty lines
 map <F2> :%s/\s*$//g<cr>:noh<cr>''
-map <F12> <esc>:NERDTreeToggle<cr>
-map <S-F12> <esc>:Bufferlist<cr>
+map <F11> <esc>:NERDTreeToggle<cr>
+map <F12> <esc>:Bufferlist<cr>
 map <Leader>t <esc>:CtrlP<cr>
 let g:ctrlp_root_markers = ['.ctrlp', '.git', '.root']
 
